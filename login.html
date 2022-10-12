@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <form id="login-form">
+      <h1>시나브로</h1>
+      <p class="login-form__description">
+        학교 생활을 조금 더 윤택하게 만들어주는 일정 관리표
+      </p>
+      <div class="login-form__input">
+        <div class="login-form__input--label">
+          <label>아이디</label>
+        </div>
+        <input type="text" placeholder="아이디를 입력하세요." required />
+      </div>
+      <div class="login-form__input">
+        <div class="login-form__input--label">
+          <label>비밀번호</label>
+        </div>
+        <input type="text" placeholder="비밀번호를 입력하세요."required />
+      </div>
+      <p>
+        <button class="submit">로그인</button>
+    </p>
+    <button class="join-form__join" onclick="location.href='join.html'">회원가입</button> 
+    <button class="join-form__find_id" onclick="location.href='find_id.html'">아이디 찾기</button> 
+    <button class="join-form__find_pw" onclick="location.href='find_pw.html'">비밀번호 찾기</button> 
+    </form>
+  
+  </body>
+</html>

@@ -1,0 +1,81 @@
+body {
+    background-color:  #2D4059;
+}
+
+    input{
+        box-sizing: border-box;
+        width: 430px;
+        padding: 15px;
+        border: 0.5px solid #2D4059;
+        border-radius: 3px;
+        background-color: #ffffff;
+    }
+
+    #find-from_pw{
+        background-color: #ffffff;
+        box-sizing: border-box;
+        border: 2px solid #EDEDED;
+        border-radius: 12px;
+        margin: 250px auto;
+        padding: 24px;
+        width: 480px;
+        height: 350px;
+        text-align: left;
+        color: #2D4059;
+        
+}
+    h4{
+        text-decoration:underline;
+        text-underline-position:under
+    }
+
+    .find-from_pw {
+        width: 100%;
+        line-height: 2;
+        margin-top: 16px;
+        
+    }
+
+    .id-from_input{
+    width: 100%;
+    line-height: 2;
+    margin-top: 16px;
+    color: #2D4059;
+    }
+
+
+    button {
+        background-color: #2D4059;
+        color: aliceblue;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        display: inline-block;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.5s;
+        box-sizing: border-box;
+        position: absolute;
+        top: 450px;
+        width: 430px;
+        padding: 10px;
+        border: 1px solid #555555;
+        border-radius: 5px;
+        
+    }
+    .join-form__login {
+        position: relative;
+        top:70px;
+        bottom: 50px;
+        width: 80px;
+        left: 350px;
+        background: rgb(255, 255, 255);
+        border: 0;
+        opacity: 1;
+        font-size: 13px;
+        text-align: center;
+        color:#2D4059;
+        text-decoration:underline;
+        text-underline-position:under
+    }
+
